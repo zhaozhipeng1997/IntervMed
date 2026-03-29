@@ -1,0 +1,43 @@
+vision_token_length: 256
+TEST_SAMPLES: 10000
+
+paths:
+  facet_root: "your path/FACET_Dataset"
+  model_paths:
+    llava_7b: "llava-hf/llava-1.5-7b-hf"
+    llava_13b: "llava-hf/llava-1.5-13b-hf"
+    llava_next_7b: "llava-hf/llava-v1.6-vicuna-7b-hf"
+    llava_next_13b: "llava-hf/llava-v1.6-vicuna-13b-hf"
+  coco2014_data_path: "your path/val2014"
+  coco2014_gender_label_path: "your path/COCO Racial Biases in Image Captioning/images_val2014.csv"
+
+facet:
+  do_sample: True
+  temperature: 1.0
+  num_beams: 1
+  max_new_tokens: 1024
+  intervention: true
+coco:
+  do_sample: True
+  temperature: 1.0
+  num_beams: 1
+  max_new_tokens: 1024
+  intervention: true    
+pope:
+  do_sample: True
+  temperature: 1.0
+  num_beams: 1
+  max_new_tokens: 1024
+  intervention: true   
+mmmu:
+  do_sample: True
+  temperature: 1.0
+  num_beams: 1
+  max_new_tokens: 1024
+  intervention: true  
+  
+  
+intervention:
+  low: 10.0
+  mid: 5.0
+  high: 1.0

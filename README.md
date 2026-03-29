@@ -3,7 +3,7 @@
 Before running the code, you need to prepare the evaluation datasets.
 
 - **FACET dataset**: Download from https://ai.meta.com/datasets/facet-downloads/
-- **MSCOCO dataset**:
+- **MS COCO dataset**:
   - Images: http://images.cocodataset.org/zips/test2014.zip
   - Labels: https://princetonvisualai.github.io/imagecaptioning-bias/
 

@@ -61,19 +61,23 @@ We provide convenient one-click scripts:
 ## Evaluating All Layers
 
 ```bash
+chmod +x ./run_all.sh &&
 cd llava && ./run_all.sh
 ```
 
 ```bash
+chmod +x ./run_all.sh &&
 cd instructblip && ./run_all.sh
 ```
 
 ## Intervention Strength Experiments
 
 ```bash
+chmod +x ./run_Intervention_exp.sh &&
 cd llava && ./run_Intervention_exp.sh
 ```
 
 ```bash
+chmod +x ./run_Intervention_exp.sh &&
 cd instructblip && ./run_Intervention_exp.sh
 ```
